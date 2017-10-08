@@ -1,5 +1,5 @@
 /**
-* Package for calculate task.
+* Package for test tasks.
 *
 * @author Marek Vorp (mailto:marek.vorp@gmail.com)
 * @version $Id$
