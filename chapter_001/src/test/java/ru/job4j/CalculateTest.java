@@ -5,20 +5,20 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
-*Class to test 'Calculate.java'.
-*
-*@author Marek Vorp (mailto:marek.vorp@gmail.com)
-*@version $Id$
-*@since 09.10.2017
-*/
+ *Class to test 'Calculate.java'.
+ *
+ *@author Marek Vorp (mailto:marek.vorp@gmail.com)
+ *@version $Id$
+ *@since 09.10.2017
+ */
 public class CalculateTest {
 	/**
-	* Test echo.
-	*
-	*@author Marek Vorp (mailto:marek.vorp@gmail.com)
-	*@version $Id$
-	*@since 09.10.2017
-	*/
+	 * Test echo.
+	 *
+	 *@author Marek Vorp (mailto:marek.vorp@gmail.com)
+	 *@version $Id$
+	 *@since 09.10.2017
+	 */
 	@Test
 	public void whenTakeNameThenTreeEchoPlusName() {
 		String input = "Marek Vorp";
