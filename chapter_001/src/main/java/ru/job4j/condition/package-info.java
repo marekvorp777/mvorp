@@ -1,5 +1,5 @@
 /**
- * Package for Point task.
+ * Package for Condition tasks.
  *
  * @author Marek Vorp (mailto:marek.vorp@gmail.com)
  * @version $Id$
