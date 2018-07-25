@@ -73,15 +73,15 @@ public class Triangle {
      * @param ab Длина от точки A до C.
      * @param ac Длина от точки A до C.
      * @param bc Длина от точки B до C.
-     * @return false если сумма двух длин меньше третьей
+     * @return false если сумма двух длин больше третьей
      */
     private boolean exist(double ab, double ac, double bc) {
-        if (ab + ac < bc) {
-            return false;
-        } else if (ab + bc < ac) {
-            return false;
+        if (ab + ac > bc) {
+            return true;
+        } else if (ab + bc > ac) {
+            return true;
         } else {
-            return (ac + bc < ab);
+            return (ac + bc > ab);
         }
     }
 
