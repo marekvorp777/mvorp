@@ -5,7 +5,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
- *Class to test 'DummyBotjava'.
+ *Class to test 'DummyBot.java'.
  *
  *@author Marek Vorp (mailto:marek.vorp@gmail.com)
  *@version $Id$
