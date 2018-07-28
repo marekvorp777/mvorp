@@ -21,4 +21,14 @@ public class MaxTest {
         int result = maxim.max(1, 2);
         assertThat(result, is(2));
     }
+
+    /**
+     * Проверка, наибольшего значения из чисел 1, 2, 3.
+     */
+    @Test
+    public void whenOneTwoThreeThenThree() {
+        Max maximum = new Max();
+        int result = maximum.max(1, 2, 3);
+        assertThat(result, is(3));
+    }
 }
