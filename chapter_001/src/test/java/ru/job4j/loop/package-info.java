@@ -1,5 +1,5 @@
 /**
- * Package for Max tasks.
+ * Package for Loop tasks.
  *
  * @author Marek Vorp (mailto:marek.vorp@gmail.com)
  * @version $Id$
