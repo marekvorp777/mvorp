@@ -1,5 +1,4 @@
 package ru.job4j.loop;
-
 /**
  * Программа для расчёта факториала.
  *
@@ -8,7 +7,6 @@ package ru.job4j.loop;
  * @since 29.07.2018
  */
 public class Factorial {
-
     /**
      * расчёт факториала.
      *
@@ -16,15 +14,11 @@ public class Factorial {
      * @return факториал числа n
      */
     public int calc(int n) {
-
         /** произведение всех натуральных чисел. */
         int m = 1;
 
-        if (n > 0) {
-            System.out.println("+");
-            for (int i = 1; i <= n; i++) {
-                m *= i;
-            }
+        for (int i = 1; i <= n; i++) {
+            m *= i;
         }
         return m;
     }
