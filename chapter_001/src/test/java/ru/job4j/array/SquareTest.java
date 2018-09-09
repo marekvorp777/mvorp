@@ -5,7 +5,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
- *Class to test 'SquareTest.java'.
+ *Class to test 'Square.java'.
  *
  *@author Marek Vorp (mailto:marek.vorp@gmail.com)
  *@version $Id$
