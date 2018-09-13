@@ -15,12 +15,14 @@ public class Check {
      * @return - имеет одинаковее значение всех элементов - true, иное - false
      */
     public boolean mono(boolean[] data) {
+        boolean result = true;
         boolean tmp = data[0];
         for (boolean dataElement : data) {
             if (dataElement != tmp) {
-                return false;
+                result = false;
+                break;
             }
         }
-        return true;
+        return result;
     }
 }
